@@ -1,0 +1,57 @@
+# Installing packages in R
+Note: 
+1. [Optional] If you are facing any issue during installation then,
+   disable "Windows Firewall", "Antivirus", "Windows Defender"
+2. If you are getting installation any issue again again like "Package not 
+   available for ........". Restart your "R console" or "R Studio".
+	  
+
+	  
+***********
+Step 1: Open R Console and write (or copy paste) following commands and press enter.
+**********
+install.packages("randomForest")
+install.packages("kernlab")
+install.packages("rattle")
+install.packages("stringr")
+install.packages('Hmisc')
+install.packages('Deducer')
+install.packages('reshape') 
+install.packages('GGally') 
+install.packages('corrplot') 
+install.packages('rggobi') 
+install.packages('ggraptR')
+install.packages('fBasics')
+install.packages('wskm') 
+install.packages('amap') 
+install.packages('biclust')
+install.packages('xgboost') 
+install.packages('pROC') 
+install.packages('ROCR') 
+install.packages('hmeasure') 
+
+
+***********
+Step 2: To Check weather a package is installed or not
+***********
+library(randomForest)
+library(kernlab)
+library(rattle)
+
+
+***********
+Step 3: Start Rattle
+***********
+library(rattle)  # First Time it may ask to "Install GTK+" --> OK
+rattle()
+
+
+***********
+Step 4: Learn More about "Rattle"
+***********
+1. Learn from Videos.
+2. http://bit.ly/MachineLearningUsingRattle
+3. Go to Google and search for "Data Mining using rattle".
+
+
+-- Happy Learning --
